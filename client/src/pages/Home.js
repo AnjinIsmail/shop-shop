@@ -1,13 +1,16 @@
+
 import React, { useState } from "react";
+import Cart from '../components/Cart';
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 
 const Home = () => {
   return (
     <div className="container">
-      <CategoryMenu />
-      <ProductList />
-    </div>
+    <CategoryMenu />
+    <ProductList />
+    <Cart />
+  </div>
   );
 };
 
